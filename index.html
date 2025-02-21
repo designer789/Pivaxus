@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pivaxus</title>
+    <link rel="icon" type="image/png" href="public/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="public/hd.png" alt="Pivaxus" class="logo-icon">
+            </div>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#importance">Data Security</a>
+                <a href="#solutions">Solutions</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://x.com/PIVAXUS_" target="_blank" class="social-icon">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://t.me/Pivaxus" target="_blank" class="social-icon">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="javascript:void(0)" class="social-icon">
+                    <img src="public/dextools.svg" alt="Dextools" class="dex-icon">
+                </a>
+                <a href="javascript:void(0)" class="social-icon">
+                    <img src="public/dex-screener-seeklogo.svg" alt="Dexscreener" class="dex-icon">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <video class="hero-bg-video" autoplay loop muted playsinline>
+            <source src="public/v1.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <div class="left-side">
+                <h1>The New Best<br>AI Friend</h1>
+            </div>
+
+            <div class="center">
+                <div class="shield-container">
+                    <svg class="shield-icon" viewBox="0 0 200 240">
+                        <defs>
+                            <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2bebcd"/>
+                                <stop offset="100%" style="stop-color:#00aaff"/>
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <path class="shield-path" d="M100 10 L180 50 V120 C180 180 100 220 100 220 C100 220 20 180 20 120 V50 L100 10Z" 
+                            fill="url(#shield-gradient)" 
+                            filter="url(#glow)"/>
+                    </svg>
+                    <img src="public/p1.png" alt="Pivaxus" class="shield-center-image">
+                </div>
+            </div>
+
+            <div class="right-side">
+                <h2>in<br>Cybersecurity</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <div class="section-content">
+                <div class="intro-text">
+                    <h2 class="main-title">Protecting Your Data,<br>You Can Focus on What You Do Best.</h2>
+                    <div class="intro-paragraph">
+                        <p>In today's digital world, your data is like your most valuable asset—and it's under constant threat. From hackers to data breaches, there's always something trying to put your personal, business, and sensitive data at risk.</p>
+                        <p>That's where Pivaxus comes in. Think of us as your personal data security expert, combining cutting-edge AI technology with top-tier encryption to protect what matters most to you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="main-title">What Exactly is<br>Pivaxus?</h2>
+                        <div class="about-paragraph">
+                            <p>Pivaxus is an AI-powered data security solution designed to protect your personal, business, and sensitive data from evolving cyber threats. We use the latest in artificial intelligence (AI) and the strongest encryption standards to provide you with unmatched protection.</p>
+                            <p>Whether you're managing personal information or running a business, Pivaxus ensures your data stays safe—always.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-scroll-section" id="features">
+            <div class="section-content">
+                <div class="scroll-wrapper">
+                    <div class="section-header">
+                        <h2>Core Features</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div class="features-container">
+                        <div class="features-track">
+                            <div class="feature-card" id="ai-detection">
+                                <div class="feature-image">
+                                    <img src="public/item1.png" alt="AI Detection" class="feature-img" loading="lazy">
+                                </div>
+                                <h3>AI detects threats without delay</h3>
+                                <p>Pivaxus uses advanced AI technology to instantly recognize potential threats. We don't wait for vulnerabilities to be exploited before remedying them, but rather detect and prevent them in advance to protect your data from being compromised.</p>
+                            </div>
+
+                            <div class="feature-card" id="auto-adapt">
+                                <div class="feature-image">
+                                    <img src="public/item2.png" alt="Auto Adaptation" class="feature-img" loading="lazy">
+                                </div>
+                                <h3>Auto adaptation to new threats</h3>
+                                <p>Our AI system continuously learns and adapts to new types of cyber threats. This means your protection evolves in real-time, staying one step ahead of potential security risks.</p>
+                            </div>
+
+                            <div class="feature-card" id="monitoring">
+                                <div class="feature-image">
+                                    <img src="public/item3.png" alt="24/7 Monitoring" class="feature-img" loading="lazy">
+                                </div>
+                                <h3>24/7 monitoring & protection</h3>
+                                <p>Round-the-clock surveillance ensures your data is protected at all times. Our system never sleeps, providing continuous monitoring and instant response to any suspicious activities.</p>
+                            </div>
+
+                            <div class="feature-card" id="auto-response">
+                                <div class="feature-image">
+                                    <img src="public/item4.png" alt="Auto Response" class="feature-img" loading="lazy">
+                                </div>
+                                <h3>Automatic incident response</h3>
+                                <p>When threats are detected, our system automatically implements appropriate security measures. This immediate response helps prevent data breaches before they can occur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="importance-section" id="importance">
+            <div class="section-content">
+                <div class="importance-text">
+                    <h2 class="main-title">We know how important<br>your data is to you.</h2>
+                    <div class="importance-paragraph">
+                        <p>That's why we combine the strongest encryption with AI-driven security to ensure your data is never at risk under any circumstances.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hover-cards-section" id="solutions">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2>Is Pivaxus for you? Absolutely!</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="hover-cards">
+                    <div class="hover-card">
+                        <div class="hover-card-content">
+                            <h3>You say, We do</h3>
+                            <div class="hover-content">
+                                <p>Whether you're a small company just starting out or a large enterprise with a global presence, Pivaxus offers customized solutions for worry-free data security.</p>
+                                <p>We're not just good at technology, but the trust and satisfaction of our customers is our greatest pride.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hover-card">
+                        <div class="hover-card-content">
+                            <h3>What's our advantage?</h3>
+                            <div class="hover-content">
+                                <div class="advantage-item">
+                                    <h4>Threat prevention</h4>
+                                    <p>AI quickly recognizes threats and stops them so far in advance that virtually no threat can break through.</p>
+                                </div>
+                                <div class="advantage-item last">
+                                    <h4>Reduced cost of data breaches</h4>
+                                    <p>We proactively find and handle threats, allowing you to save significant remediation costs and avoid financial losses from large-scale breaches.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hover-card">
+                        <div class="hover-card-content">
+                            <h3>Don't want to worry about data security anymore?</h3>
+                            <div class="hover-content">
+                                <p>The goal of Pivaxus is to make data security simple and easy so you can be worry-free in the digital world. If you're still worried about data breaches and hacking, why not try our AI security protection?</p>
+                                <p>Join us now and let Pivaxus help you defend your data security. All you need to do is focus on your business and leave the rest to us!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="section-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="public/hd.png" alt="Pivaxus" class="footer-logo">
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-menu">
+                        <h4>Menu</h4>
+                        <a href="#about">About</a>
+                        <a href="#features">Features</a>
+                        <a href="#importance">Data Security</a>
+                        <a href="#solutions">Solutions</a>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Social</h4>
+                        <a href="https://x.com/PIVAXUS_" target="_blank">Twitter</a>
+                        <a href="https://t.me/Pivaxus" target="_blank">Telegram</a>
+                        <a href="javascript:void(0)">DEXTools</a>
+                        <a href="javascript:void(0)">DEX Screener</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pivaxus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
